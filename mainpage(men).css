@@ -655,3 +655,66 @@ p + .ofrprice{
     color: #4a4a4a;
     margin: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .sslogo {
+        margin: 0 auto; 
+        width: 70px;
+        height: auto;
+    }
+
+    .menullist {
+        display: none;
+    }
+
+    .searchbar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .navicons {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .header {
+        flex-wrap: wrap; 
+        justify-content: space-around;
+        padding: 10px 20px;
+    }
+
+    .sslogo {
+        margin: 0;
+        width: 80px;
+        height: auto;
+    }
+
+    .menullist {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .menus li {
+        font-size: 15px;
+        margin: 0 8px;
+    }
+
+    .searchbar {
+        width: 200px;
+        margin: 10px auto;
+    }
+
+    .navicons {
+        text-align: center;
+    }
+}
